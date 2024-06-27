@@ -1,0 +1,47 @@
+<% layout('layout/boilerplate') -%>
+
+    <form class="w-50 mx-auto needs-validation" action="/add-product/" method="post" class="w-150 mb-6" novalidate>
+        <div>
+            <label for="name">Product Name</label>
+            <input class="form-control" type="text" name="name" placeholder="input here product Name..." aria-label="Enter Prodcuct Name" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+            <div class="invalid-feedback">
+                Please Add Product Name
+            </div>
+        </div>
+        
+        <div>
+            <label for="price">Price</label>
+            <input class="form-control" type="number" name="price" placeholder="input here product Price..." aria-label="Enter Prodcuct Price" required>
+            <div class="valid-feedback">
+                Looks good!
+              </div>
+              <div class="invalid-feedback">
+                Please Add Price for Product
+            </div>
+        </div>
+        <div>
+            <label for="images">Images</label>
+            <input class="form-control" type="text" name="images" placeholder="input here product Image..." aria-label="Enter Prodcuct Image" required>
+            <div class="valid-feedback">
+                Looks good!
+              </div>
+              <div class="invalid-feedback">
+                Please Add some Images
+            </div>
+        </div>
+        <div>
+            <label for="description">Descriptions</label>
+            <textarea class="form-control" id="formControlTextarea" rows="3" name="description" placeholder="Add description" required></textarea>
+            <div class="valid-feedback">
+                Looks good!
+              </div>
+              <div class="invalid-feedback">
+                Please Provide Descriptions
+            </div>
+        </div>
+     
+        <button class="btn-primary" type="submit">Add</button>
+    </form>
