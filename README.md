@@ -5,7 +5,7 @@ Sure! Here is a sample README file for your e-commerce buyer-seller application:
 # E-commerce Buyer-Seller Application
 [Live link](https://nodejs-application-5n41.onrender.com)
 
-This application is designed to facilitate online transactions between buyers and sellers. It includes user authentication, session management, dynamic content rendering, and database interactions.
+This application is designed to facilitate pruducts with buyers and sellers. It includes user authentication, session management, dynamic content rendering, and database interactions.
 
 ## Table of Contents
 - [Features](#features)
